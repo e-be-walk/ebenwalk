@@ -12,6 +12,11 @@ body {
   -o-background-size: cover;
 }
 
+.greet {
+  position: fixed;
+  bottom: 45px;
+}
+
 .masthead h1 {
   font-family: 'Abril Fatface', cursive;
 }
@@ -25,7 +30,6 @@ body {
 
 @media (min-width: 992px) {
   .masthead {
-    height: 100vh;
     padding: 0;
   }
   .masthead h1 {
