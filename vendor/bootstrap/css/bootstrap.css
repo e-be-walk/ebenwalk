@@ -599,9 +599,6 @@ pre code {
   margin-left: -15px;
 }
 
-.row span {
-  align-self: flex-end;
-}
 
 .no-gutters {
   margin-right: 0;
@@ -1250,6 +1247,7 @@ pre code {
     -ms-flex: 0 0 100%;
     flex: 0 0 100%;
     max-width: 100%;
+    align-self: flex-end;
   }
   .order-lg-first {
     -ms-flex-order: -1;
